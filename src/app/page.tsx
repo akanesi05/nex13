@@ -16,7 +16,7 @@ export default async function Home() {
      <div className='w-full max-w-xl mt-5'>
       <div className='w-full px-8 py-6 bg-white shadow-md rounded-ng'>
         <AddTask/>
-        <TodoList/>
+        <TodoList tasks={todos}/>
       </div>
      </div>
     </main>
