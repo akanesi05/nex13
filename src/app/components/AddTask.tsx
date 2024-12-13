@@ -1,5 +1,7 @@
-"use client";
-import { addTodo } from '@/api'
+
+"use client"
+import {addTodo}  from '@/api'
+
 import React, { ChangeEvent, FormEvent, useState } from 'react'
 import {v4 as uuidv4} from "uuid"
 const AddTask = () => {
